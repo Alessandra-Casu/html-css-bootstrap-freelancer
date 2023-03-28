@@ -14,19 +14,28 @@ body{
 .bgk-color-acqua{
     background-color:#1ABC9C ;
     width: 100%;
-    min-height: 300px;
+    min-height: 300px ; /*TO DO*/
+    
 }
 
 .contents {
     width: 100%;
-    display: flex;
-    
+    display: flex; 
+    justify-content: center;
+    align-items: center;
     
 }
 
 .contents img{
     width: 356px;
     height: 284px;
+    border-radius: 15px;
+}
 
+.black-line{
+    width: 15%;
+    height: .2rem;
+    background-color: black;
+    border-radius: 15px; 
 }
 
