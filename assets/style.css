@@ -2,67 +2,37 @@
 body{
     overflow-x: hidden;
 }
-
-
+/*futura nav-bar*/
 .bgk-color-grey{
     background-color: #2C3E50;
-    width: 100%;
-    height: 5rem;
+    min-height: 5rem;
+ 
+    
 }
-
-
+/*futuro jumbo*/
 .bgk-color-acqua{
-    background-color:#1ABC9C ;
-    color: white;
-    width: 100%;
-    min-height: 300px ; /*TO DO*/
-    
+    background-color:#1ABC9C ;  
 }
-
-.contents {
-    width: 100%;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.contents img{
-    width: 356px;
-    height: 284px;
-    border-radius: 15px;
-}
-
-
-
+/*stile linee per stella nera*/
 .black-line{
     width: 15%;
     height: .2rem;
     background-color: black;
     border-radius: 15px; 
 }
-
+/*stile linee per stella bianca*/
 .white-line{
     width: 15%;
     height: .2rem;
     background-color: white;
     border-radius: 15px; 
 }
-
-
-
 /*footer*/
-
-.bgk-footer-sup
-{
-    background-color: #3A546D;
-    min-height: 200px;
-    color: white;
+.bgk-footer-sup{
+    background-color: #3A546D; 
+    min-height: 100px; /*TO DO*/
 }
-
-.bgk-footer-sub
-{
+.bgk-footer-sub{
     background-color: #2C3E50;
-    min-height: 200px;
-    color: white;
+    min-height: 100px; /*TO DO*/
 }
