@@ -13,6 +13,7 @@ body{
 
 .bgk-color-acqua{
     background-color:#1ABC9C ;
+    color: white;
     width: 100%;
     min-height: 300px ; /*TO DO*/
     
@@ -32,6 +33,8 @@ body{
     border-radius: 15px;
 }
 
+
+
 .black-line{
     width: 15%;
     height: .2rem;
@@ -39,3 +42,27 @@ body{
     border-radius: 15px; 
 }
 
+.white-line{
+    width: 15%;
+    height: .2rem;
+    background-color: white;
+    border-radius: 15px; 
+}
+
+
+
+/*footer*/
+
+.bgk-footer-sup
+{
+    background-color: #3A546D;
+    min-height: 200px;
+    color: white;
+}
+
+.bgk-footer-sub
+{
+    background-color: #2C3E50;
+    min-height: 200px;
+    color: white;
+}
