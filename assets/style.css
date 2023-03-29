@@ -3,11 +3,8 @@ body{
     overflow-x: hidden;
 }
 /*futura nav-bar*/
-.bgk-color-grey{
+.bgk-color-grey, .navbar{
     background-color: #2C3E50;
-    min-height: 5rem;
- 
-    
 }
 /*futuro jumbo*/
 .bgk-color-acqua{
@@ -19,6 +16,7 @@ body{
     height: .2rem;
     background-color: black;
     border-radius: 15px; 
+    
 }
 /*stile linee per stella bianca*/
 .white-line{
