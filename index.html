@@ -19,14 +19,14 @@
         <!--Nav bar-->
                 <div class="bgk-color-grey p-3">
                     <div class="container ">
-                        <nav class="navbar navbar-expand-md fixed-top" data-bs-theme="dark">
+                        <nav class="navbar navbar-expand-sm fixed-top" data-bs-theme="dark">
                             <div class="container ">
                               <a class="navbar-brand" href="#"> STRAT BOOTSTRAP</a>
                               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                               </button>
                               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0  d-flex justify-content-end w-100">
+                                <ul class="navbar-nav ms-auto mb-2 mb-sm-0 ">
                                   <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
                                   </li>
@@ -76,31 +76,31 @@
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3  ">
                     <div class="col">
                         
-                            <img class="w-100" src="img/cabin.png" alt="">
+                            <img class="w-100 rounded" src="img/cabin.png" alt="">
                         
                     </div>
                     <div class="col">
                         
-                            <img class="w-100" src="img/cake.png" alt="">
+                            <img class="w-100 rounded" src="img/cake.png" alt="">
                         
                     </div>
                     <div class="col">
                         
-                            <img class="w-100" src="img/circus.png" alt="">
+                            <img class="w-100 rounded" src="img/circus.png" alt="">
                        
                     </div>
                     <div class="col">
-                        
-                            <img class="w-100" src="img/game.png" alt="">
+                        <div class="contents rounded overflow-hidden">
+                            <img class="img-fluid d-block" src="img/game.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                            <img class="w-100 rounded" src="img/safe.png" alt="">
                         
                     </div>
                     <div class="col">
-                            <img class="w-100" src="img/safe.png" alt="">
                         
-                    </div>
-                    <div class="col">
-                        
-                            <img class="w-100" src="img/submarine.png" alt="">
+                            <img class="w-100 rounded" src="img/submarine.png" alt="">
                         
                     </div>
                 </div>   
@@ -127,6 +127,9 @@
                         Sapiente quaerat dignissimos id recusandae consequuntur repellat sit necessitatibus fugit quis, doloremque perspiciatis amet debitis officia suscipit officiis numquam ratione in, veritatis accusantium sunt, maiores ea. Quidem, libero praesentium? Nihil?
                     </div>
                 </div>
+                <div class="text-center pt-5">
+                    <button type="button" class="btn btn-outline-light">Secondary</button>
+                </div>
 
             </div>
         </section>
@@ -148,19 +151,18 @@
                 
                     <form>
                         <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                        </div>
+                          <input type="text" class="form-control" placeholder="Nome" aria-describedby="emailHelp">
+                        </div> 
                         <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                            <input type="email" class="form-control" placeholder="Email" aria-describedby="emailHelp">
+                          </div> 
+                          <div class="mb-3">
+                            <input type="tel" class="form-control" placeholder="Telefono" aria-describedby="emailHelp">
+                          </div> 
+                         <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                         </div>
+                        <button type="submit" class="btn btn-success">Send</button>
                       </form>
                           
                     
@@ -173,31 +175,58 @@
     <!--FOOTER-->
     <footer>
         <!--Sezione superiore del footer-->
-        
-        <div class="row">
-            <div class="col-12 ">
-                <div class="bgk-footer-sup p-3">
+        <!--
+            icone
+            <i class="fa-brands fa-facebook-f"></i>
+<i class="fa-brands fa-google-plus-g"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-linkedin-in"></i>
+        -->
+        <div class="bgk-footer-sup text-center text-white p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <h5 class="pt-3">LOCATION</h5>
+                        <p>2215 john Daniel Drive Clark, MO</p>
+                        <p>54243</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h5 class="pt-3">AROUND THE WEB</h5>
                         <div class="row">
-                            <div class="col-12 col-lg-4">
-                                <div class="w-100 text-white  d-flex justify-content-center align-items-center">
-                                    LOCATION
+                            <div class="col-3">
+                                <div class="social">
+                                    <i class="fa-brands fa-facebook-f"></i></div>
+                                </div> 
+                            <div class="col-3">
+                                <div class="social">
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                </div>
+                            </div> 
+                            <div class="col-3">
+                                <div class="social">
+                                    <i class="fa-brands fa-twitter"></i>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
-                                <div class="w-100 text-white  d-flex justify-content-center align-items-center">
-                                    AROUND THE WEB
+                            <div class="col-3">
+                                <div class="social">
+                                    <i class="fa-brands fa-linkedin-in"></i>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4">
-                                <div class="w-10 text-white d-flex justify-content-center align-items-center">
-                                    ABOUT FREELANCER
-                                </div>
-                            </div>
-                    
                         </div>
-                 </div>
+
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <h5 class="pt-3">ABOUT FREELANCER</h5>
+                        <p>Freelance is a free to use, open source Bootsrap theme created by STart Bootsrap </p>
+                    </div>
+                    
+                </div>
+
+
             </div>
         </div>
+       
         <!--Sezione inferiore del footer-->
         
             <div class="bgk-footer-sub text-center text-white p-5">

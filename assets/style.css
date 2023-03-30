@@ -1,6 +1,7 @@
 /*SI PU0'? */
 body{
     overflow-x: hidden;
+    margin-top: 56px;
 }
 /*futura nav-bar*/
 .bgk-color-grey, .navbar{
@@ -28,9 +29,41 @@ body{
 /*footer*/
 .bgk-footer-sup{
     background-color: #3A546D; 
-    min-height: 100px; /*TO DO*/
+    
 }
 .bgk-footer-sub{
     background-color: #2C3E50;
     min-height: 100px; /*TO DO*/
+}
+
+
+
+/*
+ .portfolio .contents:hover::before {
+    content: "";
+    display: block;
+    position: absolute;
+    inset: 0;
+    background-color: green;
+    opacity: .5;
+}
+*/
+
+.form-control{
+    padding-inline: 0;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-radius: 0;
+}
+
+.social{
+    width: 3em;
+    height: 3em;
+    border: 1px solid white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
